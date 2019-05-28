@@ -2,7 +2,8 @@ public class StringTraining {
 
     /**
      * @param firstname, ie : "Brandon"
-     * @return a string that concatenates "Hello " and firstname, ie : "Hello Brandon"
+     * @return a string that concatenates "Hello " and firstname, ie : "Hello
+     *         Brandon"
      */
     public static String helloFirstname(String firstname) {
 
@@ -148,7 +149,8 @@ public class StringTraining {
     /**
      * @param string,    ie: "test|value"
      * @param delimiter, ie: "|"
-     * @return string array that contains values splited on the delimiter, ie: {"test", "value"}
+     * @return string array that contains values splited on the delimiter, ie:
+     *         {"test", "value"}
      */
     public static String[] split(String string, String delimiter) {
         // https://howtodoinjava.com/java/string/java-string-split-example/
